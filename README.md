@@ -58,7 +58,6 @@ Each rule adds a `reason` and contributes to a numerical `riskScore`.
 		"high_amount": {"matched": true, "detail": "amount=5123.45"},
 		"velocity": {"matched": false, "count": 1},
 		"blacklist": {"matched": false},
-		"card_country_mismatch": {"matched": true, "ip_country": "BR", "card_country": "US"},
 		"night_transaction": {"matched": true, "timestamp": "2026-02-15T02:23:10Z"}
 	},
 	"analyzedAt": "2026-02-15T02:23:11Z"
