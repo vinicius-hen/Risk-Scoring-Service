@@ -35,7 +35,6 @@
 - **High amount rule:** If `amount > 5000` → increase score / mark as high risk.
 - **Velocity rule:** More than 5 transactions from the same `customerId` within 1 minute → suspicious.
 - **Blacklist rule:** If `customerId` is present in the configured blacklist → mark as fraud.
-- **Card country mismatch:** If IP geolocation country ≠ card country → high risk.
 - **Night transactions:** Transactions between `00:00–04:00` (local time) → increase risk.
 
 Each rule adds a `reason` and contributes to a numerical `riskScore`.
