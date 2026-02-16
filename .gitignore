@@ -1,0 +1,40 @@
+# Maven / build
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Build outputs
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# IDEs and editors
+/.idea/
+/*.iml
+/.vscode/
+out/
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env and secrets
+.env
+
+# H2 database files
+*.h2.db
+*.mv.db
+*.trace.db
+
+# Node (if present)
+node_modules/
