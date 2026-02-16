@@ -69,8 +69,7 @@ Risk score is an integer (0-100). `riskLevel` is derived from thresholds (exampl
 **Configuration & Environment**
 - **Broker:** Configure `BROKER_URL` for your message broker (Kafka, RabbitMQ, etc.).
 - **Topics:** `INPUT_TOPIC` (default `payment.created`) and `OUTPUT_TOPIC` (default `payment.risk.assessed`).
-- **Blacklist source:** configure `BLACKLIST_URL` or local store for blacklisted `customerId`s.
-- **GeoIP provider:** configure `GEOIP_API_URL` or local DB for IP→country lookups.
+- **Blacklist source:** configure `BLACKLIST_URL` or local store for blacklisted `customerId`s
 
 **Running & Testing**
 - To test locally, publish a `payment.created` event to your broker with the example payload.
