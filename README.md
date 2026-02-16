@@ -34,8 +34,8 @@
 **Implemented Rules (🧠)**
 - **High amount rule:** If `amount > 5000` → increase score / mark as high risk.
 - **Velocity rule:** More than 5 transactions from the same `customerId` within 1 minute → suspicious.
-- **Blacklist rule:** If `customerId` is present in the configured blacklist → mark as fraud.
 - **Night transactions:** Transactions between `00:00–04:00` (local time) → increase risk.
+
 
 Each rule adds a `reason` and contributes to a numerical `riskScore`.
 
@@ -54,12 +54,6 @@ Each rule adds a `reason` and contributes to a numerical `riskScore`.
 		"CARD_COUNTRY_MISMATCH",
 		"NIGHT_TRANSACTION"
 	],
-	"ruleResults": {
-		"high_amount": {"matched": true, "detail": "amount=5123.45"},
-		"velocity": {"matched": false, "count": 1},
-		"blacklist": {"matched": false},
-		"night_transaction": {"matched": true, "timestamp": "2026-02-15T02:23:10Z"}
-	},
 	"analyzedAt": "2026-02-15T02:23:11Z"
 }
 ```
