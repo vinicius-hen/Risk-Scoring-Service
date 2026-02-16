@@ -7,10 +7,6 @@
 
 **PaymentCreatedEvent (input)**
 - **Description:** Event published when a payment is created.
-- **Example payload:**
-
-- **Java-like schema:**
-
 
 - **Example JSON payload:**
 
